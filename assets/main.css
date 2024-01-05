@@ -1,0 +1,32 @@
+.size-widget{
+  max-width: 40rem;
+  padding: 2rem;
+  margin: auto auto;
+  border: solid black 1rem;
+  border-radius: 6rem;
+  font-family: Arial, sans-serif;
+  background-color: cornflowerblue;
+}
+
+.size-widget p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.size-widget form {
+  margin: auto;
+  width: fit-content;
+}
+
+.size-widget ul {
+    display: block;
+}
+
+html {
+    height: 100vh;
+    background-color: coral;
+}
+body {
+    height: -webkit-fill-available;
+    display: flex;
+}
